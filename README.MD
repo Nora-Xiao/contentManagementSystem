@@ -2,13 +2,7 @@
 
 ### Task
 
-You're asked to write a simple online CMS (Content Management System) to manage JSON files.
-
-After it's finished, please provide the following:
-
-1. A demo video/gif of the working system
-2. Your cloned GitHub repository link that has all implementation
-3. Summary of what you've done, thoughts/ideas on the tools
+a online CMS (Content Management System) to manage JSON files.
 
 ### Requirements
 
@@ -53,8 +47,6 @@ Please use material-ui (https://material-ui.com) to create the following pages (
    - Show Save and Cancel buttons
 
 ## Tools
-
-Please check out the following to help develop & debug
 
 - NodeJS - https://nodejs.org
 - React - https://reactjs.org
