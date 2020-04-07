@@ -16,7 +16,7 @@ a online CMS (Content Management System) to manage JSON files.
 
 Service is written in NodeJS under "service" folder.
 
-Please use sqlite3 database and create the following APIs:
+Use sqlite3 database and create the following APIs:
 
 1. Create new content folder
 2. Store the upload file(s)
@@ -24,7 +24,7 @@ Please use sqlite3 database and create the following APIs:
 4. Get file list for a given folder path
 5. Store the content file for editing->save
 
-Some design suggestions:
+Some designs:
 
 - Create "upload" folder in file system for all uploaded files, use GUID as file names
 - Create "content" table in database with schema { id, filename, is_folder, parent, guid, size, upload_time, modified_time }
@@ -36,7 +36,7 @@ Some design suggestions:
 
 WebApp is written in React under "web" folder.
 
-Please use material-ui (https://material-ui.com) to create the following pages (consider use routing library):
+Use material-ui (https://material-ui.com) to create the following pages (consider use routing library):
 
 1. Content listing
 
